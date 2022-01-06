@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E95420CE6FE90118D1FB96B /* Pods_SuperHeoresStorybords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612928F3EA23D5A7F0783832 /* Pods_SuperHeoresStorybords.framework */; };
 		D2042B8327865F9900FD59C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2042B8227865F9900FD59C8 /* AppDelegate.swift */; };
 		D2042B8527865F9900FD59C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2042B8427865F9900FD59C8 /* SceneDelegate.swift */; };
 		D2042B8727865F9900FD59C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2042B8627865F9900FD59C8 /* ViewController.swift */; };
 		D2042B8A27865F9900FD59C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2042B8827865F9900FD59C8 /* Main.storyboard */; };
 		D2042B8C27865F9C00FD59C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2042B8B27865F9C00FD59C8 /* Assets.xcassets */; };
 		D2042B8F27865F9C00FD59C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2042B8D27865F9C00FD59C8 /* LaunchScreen.storyboard */; };
+		D2042B98278667F000FD59C8 /* SuperHeore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2042B97278667F000FD59C8 /* SuperHeore.swift */; };
+		D2042B9E27866A4700FD59C8 /* HeoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2042B9C27866A4700FD59C8 /* HeoreTableViewCell.swift */; };
+		D2042B9F27866A4700FD59C8 /* HeoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2042B9D27866A4700FD59C8 /* HeoreTableViewCell.xib */; };
+		D2042BA12786A76D00FD59C8 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2042BA02786A76D00FD59C8 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3A8DB4A341E95C94B1E2D8 /* Pods-SuperHeoresStorybords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeoresStorybords.release.xcconfig"; path = "Target Support Files/Pods-SuperHeoresStorybords/Pods-SuperHeoresStorybords.release.xcconfig"; sourceTree = "<group>"; };
+		612928F3EA23D5A7F0783832 /* Pods_SuperHeoresStorybords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeoresStorybords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654440771928EEF93DAD4A28 /* Pods-SuperHeoresStorybords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeoresStorybords.debug.xcconfig"; path = "Target Support Files/Pods-SuperHeoresStorybords/Pods-SuperHeoresStorybords.debug.xcconfig"; sourceTree = "<group>"; };
 		D2042B7F27865F9900FD59C8 /* SuperHeoresStorybords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeoresStorybords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2042B8227865F9900FD59C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2042B8427865F9900FD59C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		D2042B8B27865F9C00FD59C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2042B8E27865F9C00FD59C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2042B9027865F9C00FD59C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2042B97278667F000FD59C8 /* SuperHeore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeore.swift; sourceTree = "<group>"; };
+		D2042B9C27866A4700FD59C8 /* HeoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeoreTableViewCell.swift; sourceTree = "<group>"; };
+		D2042B9D27866A4700FD59C8 /* HeoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeoreTableViewCell.xib; sourceTree = "<group>"; };
+		D2042BA02786A76D00FD59C8 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E95420CE6FE90118D1FB96B /* Pods_SuperHeoresStorybords.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		580CDDC5C575F4A899031428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				612928F3EA23D5A7F0783832 /* Pods_SuperHeoresStorybords.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2042B7627865F9900FD59C8 = {
 			isa = PBXGroup;
 			children = (
 				D2042B8127865F9900FD59C8 /* SuperHeoresStorybords */,
 				D2042B8027865F9900FD59C8 /* Products */,
+				D85E96760E56A2AB09417819 /* Pods */,
+				580CDDC5C575F4A899031428 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +79,8 @@
 		D2042B8127865F9900FD59C8 /* SuperHeoresStorybords */ = {
 			isa = PBXGroup;
 			children = (
+				D2042B99278669CE00FD59C8 /* Super Heore */,
+				D2042B96278667D600FD59C8 /* Model */,
 				D2042B8227865F9900FD59C8 /* AppDelegate.swift */,
 				D2042B8427865F9900FD59C8 /* SceneDelegate.swift */,
 				D2042B8627865F9900FD59C8 /* ViewController.swift */,
@@ -63,8 +88,35 @@
 				D2042B8B27865F9C00FD59C8 /* Assets.xcassets */,
 				D2042B8D27865F9C00FD59C8 /* LaunchScreen.storyboard */,
 				D2042B9027865F9C00FD59C8 /* Info.plist */,
+				D2042BA02786A76D00FD59C8 /* DescriptionViewController.swift */,
 			);
 			path = SuperHeoresStorybords;
+			sourceTree = "<group>";
+		};
+		D2042B96278667D600FD59C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2042B97278667F000FD59C8 /* SuperHeore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2042B99278669CE00FD59C8 /* Super Heore */ = {
+			isa = PBXGroup;
+			children = (
+				D2042B9C27866A4700FD59C8 /* HeoreTableViewCell.swift */,
+				D2042B9D27866A4700FD59C8 /* HeoreTableViewCell.xib */,
+			);
+			path = "Super Heore";
+			sourceTree = "<group>";
+		};
+		D85E96760E56A2AB09417819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				654440771928EEF93DAD4A28 /* Pods-SuperHeoresStorybords.debug.xcconfig */,
+				0F3A8DB4A341E95C94B1E2D8 /* Pods-SuperHeoresStorybords.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2042B9327865F9C00FD59C8 /* Build configuration list for PBXNativeTarget "SuperHeoresStorybords" */;
 			buildPhases = (
+				ED16CE8D20A90F3FD64D86F0 /* [CP] Check Pods Manifest.lock */,
 				D2042B7B27865F9900FD59C8 /* Sources */,
 				D2042B7C27865F9900FD59C8 /* Frameworks */,
 				D2042B7D27865F9900FD59C8 /* Resources */,
+				09828B75C092DFF602FF8563 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2042B8F27865F9C00FD59C8 /* LaunchScreen.storyboard in Resources */,
+				D2042B9F27866A4700FD59C8 /* HeoreTableViewCell.xib in Resources */,
 				D2042B8C27865F9C00FD59C8 /* Assets.xcassets in Resources */,
 				D2042B8A27865F9900FD59C8 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +188,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09828B75C092DFF602FF8563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperHeoresStorybords/Pods-SuperHeoresStorybords-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperHeoresStorybords/Pods-SuperHeoresStorybords-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperHeoresStorybords/Pods-SuperHeoresStorybords-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED16CE8D20A90F3FD64D86F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperHeoresStorybords-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2042B7B27865F9900FD59C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2042B8727865F9900FD59C8 /* ViewController.swift in Sources */,
+				D2042B98278667F000FD59C8 /* SuperHeore.swift in Sources */,
 				D2042B8327865F9900FD59C8 /* AppDelegate.swift in Sources */,
+				D2042BA12786A76D00FD59C8 /* DescriptionViewController.swift in Sources */,
+				D2042B9E27866A4700FD59C8 /* HeoreTableViewCell.swift in Sources */,
 				D2042B8527865F9900FD59C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +384,7 @@
 		};
 		D2042B9427865F9C00FD59C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654440771928EEF93DAD4A28 /* Pods-SuperHeoresStorybords.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +413,7 @@
 		};
 		D2042B9527865F9C00FD59C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3A8DB4A341E95C94B1E2D8 /* Pods-SuperHeoresStorybords.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
