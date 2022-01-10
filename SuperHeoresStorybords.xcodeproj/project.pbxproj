@@ -79,6 +79,7 @@
 		D2042B8127865F9900FD59C8 /* SuperHeoresStorybords */ = {
 			isa = PBXGroup;
 			children = (
+				D220D5E9278C436E00830A85 /* Description */,
 				D2042B99278669CE00FD59C8 /* Super Heore */,
 				D2042B96278667D600FD59C8 /* Model */,
 				D2042B8227865F9900FD59C8 /* AppDelegate.swift */,
@@ -88,7 +89,6 @@
 				D2042B8B27865F9C00FD59C8 /* Assets.xcassets */,
 				D2042B8D27865F9C00FD59C8 /* LaunchScreen.storyboard */,
 				D2042B9027865F9C00FD59C8 /* Info.plist */,
-				D2042BA02786A76D00FD59C8 /* DescriptionViewController.swift */,
 			);
 			path = SuperHeoresStorybords;
 			sourceTree = "<group>";
@@ -108,6 +108,14 @@
 				D2042B9D27866A4700FD59C8 /* HeoreTableViewCell.xib */,
 			);
 			path = "Super Heore";
+			sourceTree = "<group>";
+		};
+		D220D5E9278C436E00830A85 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				D2042BA02786A76D00FD59C8 /* DescriptionViewController.swift */,
+			);
+			path = Description;
 			sourceTree = "<group>";
 		};
 		D85E96760E56A2AB09417819 /* Pods */ = {
@@ -402,7 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infinty.SuperHeoresStorybords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -431,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.infinty.SuperHeoresStorybords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

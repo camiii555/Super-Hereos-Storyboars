@@ -6,13 +6,12 @@
 //
 
 import UIKit
+import Kingfisher
 
 class HeoreTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var profileBox: UIView!
-    @IBOutlet weak var imageHeore: UIImageView!
-    @IBOutlet weak var nameHeore: UILabel!
-    @IBOutlet weak var realNameHeroe: UILabel!
+    
+    @IBOutlet weak var nameSuperHeore: UILabel!
+    @IBOutlet weak var imageSuperHeore: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,5 +23,4 @@ class HeoreTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }
