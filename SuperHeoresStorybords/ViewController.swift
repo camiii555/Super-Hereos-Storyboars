@@ -20,9 +20,11 @@ class ViewController: UIViewController {
         tableSuperHeores.register(UINib.init(nibName: "HeoreTableViewCell", bundle: nil), forCellReuseIdentifier: "HeoreTableViewCell")
         // Do any additional setup after loading the view.
     }
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
     }
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
